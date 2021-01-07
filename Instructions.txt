@@ -1,0 +1,39 @@
+This website is created by Minh Quan Tran in 2020 and to simulate how WannaCry attack computer. 
+It does not simulate exactly what WannaCry did.
+
+
+Windows can be dragged within the browser screen and can be closed by click 'X' button on the top right corner.
+
+There is a test file which contains some words for testing.
+
+Click 'WannaCry.exe' to activate WannaCry.
+
+Once WannaCry is activated, there are some changes:
+- The background screen will be changed and the window of WannaCry will appear.
+- The test file will be encrypted and it will have '.WNCRY' extension. The browser may not be able to open this file and will download it.
+- There are also 2 files that will be available: 
+	+ '@WanaDecryptor@.bmp' - background image
+	+ '@Please_Read_Me@.txt' - WannaCry FAQ
+
+
+The time will be count since WannaCry is activated. The price will be double after 3 days.
+
+If the window of WannaCry does not display the message, try re-open it.
+
+Language can be selected in the top right corner. Unfortunately, there are only English and Vietnamese available at the moment.
+
+There are some links available in the bottom left corner for some information.
+
+WannaCry has 3 Bitcoin addresses: 
++ 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
++ 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw
++ 13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94
+
+The Bitcoin address will be displayed randomly.
+
+Click the 'Check Payment' button to check payment. However, this function is not available and will only show some notifications.
+
+Click the 'Decrypt' button to decrypt the test file.
+
+I downloaded and tested WannaCry from this source: https://github.com/Explodingstuff/WannaCry. 
+I will not be responsible for any consequences resulting from downloading and using WannaCry.

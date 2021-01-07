@@ -1,0 +1,112 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <div class="left">
+
+    <a href="Instructions.txt" style="text-decoration: none;" target="main" onclick="javascript:openWindow(0, 'Instructions - Notepad');">
+      <div class="application">
+        <img class="icon" src="Txt icon.png">
+        <p class="application_name">Instructions</p>
+      </div>
+    </a>
+
+    <div class="space"></div>
+
+    <a href="WannaCry.html" style="text-decoration: none;" target="main1" onclick="javascript:activateWannaCry();">
+      <div class="application">
+        <img class="icon" src="Exe icon.png" height="45px" id="WannaCryIcon">
+        <p class="application_name" id="WannaCry">WannaCry.exe</p>
+      </div>
+    </a>
+
+    <div class="space"></div>
+
+    <a href="Test1.txt" style="text-decoration: none;" target="main2" onclick="javascript:openWindow(2, 'Test - Notepad');" id="Test">
+      <div class="application">
+        <img class="icon" src="Txt icon.png" id="testIcon">
+        <p class="application_name" id="test">Test.txt</p>
+      </div>
+    </a>
+
+    <div class="space"></div>
+
+    <a href="WannaCry_Background.png" style="text-decoration: none; display: none;" target="main3" onclick="javascript:openWindow(3, 'Photos - @WanaDecryptor@');" type="image/png" id="display">
+      <div class="application">
+        <img class="icon" src="WannaCry_Background.png" height="45px">
+        <p class="application_name">@WanaDecryptor@.bmp</p>
+      </div>
+    </a>
+
+    <div class="space"></div>
+
+    <a href="Please_Read_Me0.txt" style="text-decoration: none; display: none;" target="main4" onclick="javascript:openWindow(4, '@Please_Read_Me@ - Notepad');" id="display1">
+      <div class="application">
+        <img class="icon" src="Txt icon.png">
+        <p class="application_name">@Please_Read_Me@.txt</p>
+      </div>
+    </a>
+
+  </div>
+
+
+
+  <div class="window" id="windows0" style="display: flex;">
+    <div class="windows0Header">
+      <div class="heading">
+        <p id="nameOfApplication0">Instructions - Notepad</p>
+        <button onclick="javascript:closeWindow(0)">X</button>
+      </div>
+    </div>
+    <iframe src="Instructions.txt" id="theIframe" name="main"></iframe>
+  </div>
+
+  <div class="window" id="windows1">
+    <div class="windows1Header">
+      <div class="heading">
+        <p id="nameOfApplication1">Instructions - </p>
+        <button onclick="javascript:closeWindow(1)">X</button>
+      </div>
+    </div>
+    <iframe src="Instructions.txt" id="theIframe" name="main1"></iframe>
+  </div>
+
+  <div class="window" id="windows2">
+    <div class="windows2Header">
+      <div class="heading">
+        <p id="nameOfApplication2">Instructions - </p>
+        <button onclick="javascript:closeWindow(2)">X</button>
+      </div>
+    </div>
+    <iframe src="Instructions.txt" id="theIframe" name="main2"></iframe>
+  </div>
+
+  <div class="window" id="windows3">
+    <div class="windows3Header">
+      <div class="heading">
+        <p id="nameOfApplication3">Instructions - </p>
+        <button onclick="javascript:closeWindow(3)">X</button>
+      </div>
+    </div>
+    <iframe src="Instructions.txt" id="theIframe" name="main3"></iframe>
+  </div>
+
+  <div class="window" id="windows4">
+    <div class="windows4Header">
+      <div class="heading">
+        <p id="nameOfApplication4">Instructions - </p>
+        <button onclick="closeWindow(4)">X</button>
+      </div>
+    </div>
+    <iframe src="Instructions.txt" id="theIframe" name="main4"></iframe>
+  </div>
+
+</body>
+
+<script src="index.js" type="text/javascript"></script>
+
+</html>

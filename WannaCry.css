@@ -1,0 +1,168 @@
+@font-face {
+  font-family: dotCharacter;
+  src: url(RepetitionScrolling.ttf);
+}
+h3, p { margin: 0px; }
+body { position: static; }
+
+.left {
+  width: 29%;
+  float: left;
+}
+
+.left_logo {
+  height: 24%;
+}
+
+.lock {
+  display: block;
+  margin: auto;
+}
+
+.left_boxes {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.left_boxes > div {
+  border: 1px solid white;
+  width: 95%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left_box_message {
+  margin: auto;
+}
+
+.time_graph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  height: 65%;
+}
+
+.time {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.timeLeft {
+  font-family: dotCharacter;
+  font-weight: lighter;
+  color: #f0f0f0;
+  font-size: 30px;
+}
+
+.time_graph > img {
+  height: 95%;
+}
+
+.link {
+  margin: 8%;
+}
+
+.link > a {
+  color: cyan;
+}
+
+
+
+
+.right {
+  width: 71%;
+  float: right;
+}
+
+.right_top {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  align-items: center;
+}
+
+.language {
+  width: 20%;
+}
+
+.top_content {
+  margin: auto;
+}
+
+.messages {
+  height: 72%;
+  background-color: white;
+}
+
+.right_content {
+  height: 17%;
+  display: flex;
+  align-items: center;
+}
+
+.right_box {
+  height: 80%;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right_box_logo {
+  width: 27%;
+}
+
+.right_box_content {
+  width: 65%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box_yellow_content {
+  color: yellow;
+  font-weight: bold;
+}
+
+.box_message {
+  height: 40%;
+}
+
+.box_address {
+  display: flex;
+  flex-direction: row;
+  width: 110%;
+}
+
+.box_address_content {
+  height: 100%;
+  width: 150%;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.buttons {
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons > button {
+  font-weight: bold;
+  width: 47%;
+}
